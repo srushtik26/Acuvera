@@ -1,0 +1,32 @@
+# Django core
+Django==4.2.17
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+
+# Database - psycopg3 (Supabase/PostgreSQL compatible)
+psycopg[binary]==3.2.3
+
+# Auth / JWT
+PyJWT==2.9.0
+cryptography==43.0.3
+
+# Config
+python-decouple==3.8
+
+# HTTP requests (GROQ calls)
+requests==2.32.3
+
+# In-process scheduler (replaces Celery/Redis for MVP)
+APScheduler==3.10.4
+
+# Monitoring / logging
+sentry-sdk==2.18.0
+python-json-logger==2.0.7
+
+# API / serialization
+djangorestframework-simplejwt==5.3.1
+dj-database-url==2.1.0
+
+# Production Deployment
+gunicorn==21.2.0
+whitenoise==6.6.0
